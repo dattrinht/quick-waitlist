@@ -16,7 +16,7 @@ const EmailForm = () => {
       setLoading(true);
       await sendMail({
         sendTo: email,
-        subject: "You’re on the waitlist for",
+        subject: "You're on the We Send Email Inc. Waitlist",
       });
       target.reset();
       toast.success("Thank you for subscribing 🎉");
