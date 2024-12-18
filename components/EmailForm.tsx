@@ -30,17 +30,17 @@ const EmailForm = () => {
 
   return <div>
     <form onSubmit={(e) => handleSubmit(e)} className="space-y-5">
-      <div className="relative w-fit">
+      <div className="relative w-fit flex flex-col gap-2 items-center">
         <input
           type="email"
           name="email"
           id="email"
           required
-          className="outline-none bg-black text-white px-5 py-4 rounded-full min-w-[500px]"
+          className="outline-none bg-black text-white px-5 py-4 rounded-full sm:min-w-[500px]"
           placeholder="Enter your email"
         />
         <button type="submit"
-                className="absolute flex items-center justify-center top-1/2 right-1.5 w-36 z-10 bg-white text-black h-4/5 -translate-y-1/2 rounded-full gap-1 disabled:opacity-80"
+                className="py-2 sm:py-0 sm:absolute flex items-center justify-center top-1/2 right-1.5 w-36 z-10 bg-white text-black h-4/5 sm:-translate-y-1/2 rounded-full gap-1 disabled:opacity-80"
                 disabled={loading}>
           {
             loading && <LoaderCircle

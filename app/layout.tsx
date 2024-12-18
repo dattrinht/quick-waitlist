@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.className}`}>
-        <main className="flex justify-center items-center min-h-screen">{children}</main>
+        <main className="flex justify-center items-center min-h-screen px-2 sm:px-0">{children}</main>
         <Toaster />
       </body>
     </html>

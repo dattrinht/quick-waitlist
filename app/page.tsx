@@ -29,15 +29,14 @@ export default function Home() {
 
       <div
         className="flex flex-col items-center gap-5 bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 px-10 py-10">
-        <h1 className="text-white text-center text-4xl">
+        <h1 className="text-white text-center text-2xl sm:text-4xl">
           <span>Good things come <br/> to those <span className={dancingScript.className}>who wait</span></span>
         </h1>
-        <p className="text-white text-center">We Send Email Inc. is an all hooman-powered platform that helps
+        <p className="text-white text-center text-sm sm:text-base">We Send Email Inc. is an all hooman-powered platform that helps
           you <br/> spread your news via emails in a <b className="font-bold">clean</b>, <b
-            className="font-bold">clear</b>, <b className="font-bold">fast</b>, <b className="font-bold">dynamic</b>
-          and <b className="font-bold">secure</b> way.</p>
-        <p className="text-white text-center"><b className="font-bold">Sign up</b> to get notified when we
-          officially launch and <br/> have access to
+            className="font-bold">clear</b>, <b className="font-bold">fast</b>, <b className="font-bold">dynamic</b> and <b className="font-bold">secure</b> way.</p>
+        <p className="text-white text-center text-sm sm:text-base"><b className="font-bold">Sign up</b> to get notified when we
+          officially launch and <br className="hidden sm:block"/> have access to
           all the exciting perks and offers.</p>
         <EmailForm/>
       </div>
