@@ -6,7 +6,7 @@ import handlebars from "handlebars";
 
 const SMTP_SERVER_HOST = process.env.NEXT_PUBLIC_SMTP_SERVER_HOST;
 const SMTP_SERVER_SERVICE = process.env.NEXT_PUBLIC_SMTP_SERVER_SERVICE;
-const SMTP_SERVER_USERNAME = process.env.NEXT_PUBLIC_AUDIENCE_ID;
+const SMTP_SERVER_USERNAME = process.env.NEXT_PUBLIC_ACCOUNT;
 const SMTP_SERVER_PASSWORD = process.env.NEXT_PUBLIC_SMTP_SERVER_PASSWORD;
 const transporter = nodemailer.createTransport({
   service: SMTP_SERVER_SERVICE,
