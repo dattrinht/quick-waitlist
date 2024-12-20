@@ -32,7 +32,7 @@ export default function Home() {
         <h1 className="text-white text-center text-2xl sm:text-4xl">
           <span>Good things come <br/> to those <span className={dancingScript.className}>who wait</span></span>
         </h1>
-        <p className="text-white text-center text-sm sm:text-base">We Send Email Inc. is an all hooman-powered platform that helps
+        <p className="text-white text-center text-sm sm:text-base">We Send Email Inc. is an all AI-powered platform that helps
           you <br/> spread your news via emails in a <b className="font-bold">clean</b>, <b
             className="font-bold">clear</b>, <b className="font-bold">fast</b>, <b className="font-bold">dynamic</b> and <b className="font-bold">secure</b> way.</p>
         <p className="text-white text-center text-sm sm:text-base"><b className="font-bold">Sign up</b> to get notified when we
